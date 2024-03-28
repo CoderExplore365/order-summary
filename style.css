@@ -17,6 +17,7 @@ body {
 
 .bg-image {
     background-image: url('images/pattern-background-desktop.svg');
+    background-color: aliceblue;
 }
 
 .illustration-hero {
@@ -76,8 +77,7 @@ body {
 .annual-plan-price {
   width: 50%;
   text-align: middle;
-  padding-left: 15px;
-  left: 60px;
+  padding-left: 5px;
   background-color: #c3d3ee;
 }
 
@@ -99,8 +99,8 @@ a {
     text-decoration: underline;
     font-weight: bold;
     font-size: 14px;
-    left: 260px;
     background-color: #c3d3ee;
+    margin-left: 50px;
 }
 
 .payment {
