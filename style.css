@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
 
+body {
+    min-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -10,16 +19,9 @@
     background-image: url('images/pattern-background-desktop.svg');
 }
 
-.illustration-center { 
-    margin-left: 40rem; 
-    margin-right: 40rem; 
-    margin-top: 6rem;
-}
-
-
 .illustration-hero {
     border-radius: 20px 20px 0px 0px;
-    margin-bottom: 25px;
+    display: block;
 }
 
 .annual-plan-style {
@@ -30,16 +32,11 @@
 
 .container {
     text-align: center;
-    position: absolute;
-    margin-left: 40rem; 
-    margin-right: 40rem; 
     width: 348px; 
-    height: 400px; 
     padding: 1rem; 
     box-sizing: border-box;
     border: 1px solid white;
     border-radius: 5px;
-    top: 36%;
     background-color:white;
 }
 
@@ -80,7 +77,6 @@
   width: 50%;
   text-align: middle;
   padding-left: 15px;
-  position: absolute;
   left: 60px;
   background-color: #c3d3ee;
 }
@@ -100,7 +96,6 @@ a {
   }
 
 .annual-plan a {
-    position: absolute;
     text-decoration: underline;
     font-weight: bold;
     font-size: 14px;
