@@ -7,17 +7,15 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-image: url('images/pattern-background-desktop.svg');
+    background-color: aliceblue;
+    background-size: contain;
 }
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
-
-.bg-image {
-    background-image: url('images/pattern-background-desktop.svg');
-    background-color: aliceblue;
 }
 
 .illustration-hero {
